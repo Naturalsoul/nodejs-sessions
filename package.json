@@ -1,0 +1,34 @@
+{
+  "name": "sessions",
+  "version": "1.0.0",
+  "description": "Management of sessions in NodeJS",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "cookie-parser": "^1.4.1",
+    "express": "^4.13.4",
+    "express-session": "^1.13.0",
+    "mongodb": "^2.1.7",
+    "mongoose": "^4.4.6",
+    "npm": "^3.8.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Naturalsoul/nodejs-sessions.git"
+  },
+  "keywords": [
+    "nodejs",
+    "sessions",
+    "javascript"
+  ],
+  "author": "Naturalsoul",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Naturalsoul/nodejs-sessions/issues"
+  },
+  "homepage": "https://github.com/Naturalsoul/nodejs-sessions#readme"
+}
