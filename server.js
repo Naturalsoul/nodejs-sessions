@@ -3,7 +3,6 @@ var mongoose = require("mongoose")
 var bodyParser = require("body-parser")
 var cookieParser = require("cookie-parser")
 var expressSession = require("express-session")
-var userModel = require("./model/user.model.js")
 var cn = require("./data/connection.js")
 
 var app = express()

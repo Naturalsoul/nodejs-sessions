@@ -1,9 +1,4 @@
-var mongoose = require("mongoose")
 var userModel = require("../model/user.model.js")
-
-var db = mongoose.createConnection("mongodb://localhost/sessions")
-
-db.on("error", console.error)
 
 exports.insert = function(req, res) {
     var newUser = {
